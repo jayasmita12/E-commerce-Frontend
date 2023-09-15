@@ -26,6 +26,13 @@
             quantity = quantity - 1
         }
         UpdatePrice = Number(StartPrice) * quantity;
+        $cart.map((e)=>{
+            if(e.id === data.id){
+                e.price = UpdatePrice
+                e.quantity = quantity
+            }
+        })
+        localStorage.setItem("cartItems" , JSON.stringify($cart))
         getCart()
     }
 </script>
