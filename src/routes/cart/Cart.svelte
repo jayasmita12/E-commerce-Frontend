@@ -16,10 +16,10 @@
         <SingleCartItem data={data}/>
     {/each}
     <div class="sticky  bottom-0 border-2 left-0 bg-white rounded-sm h-[25vh]">
-
+        
         <div class="flex px-5 py-10 flex-col justify-end place-items-end text-start space-y-3 w-full ">
             <h1 class="font-bold text-xl">Total ₹{totalPrice}</h1>
-            <Button on:click={()=> goto("/")} class="rounded-sm  bg-gradient-to-r from-blue-200 to-blue-500 shadow-lg">PLACE ORDER</Button>
+            <Button on:click={()=> goto("/checkout")} class="rounded-sm  bg-gradient-to-r from-blue-200 to-blue-500 shadow-lg">PLACE ORDER</Button>
         </div>
     </div>
 </div>
