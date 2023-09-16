@@ -50,6 +50,6 @@ You can preview the production build with `pnpm run preview`.
  ``` 
  ## My Approch
 
-    First of this is not any Api fetch call inside my project . I  just collect all the projects and put it inside a js file . where i did filtering , sorting . Also Did the real time updates while adding item to cart and update and delete using - localStorage.
+    First of this is not any Api fetch call inside my project . I  just collect all the projects and put it inside a js file . where i did filtering , sorting . Also Did the real time updates while adding item to cart and update and delete using - localStorage:
 
-    This project upto basically logical building and problem solving . so that i m choosing this way . Rather than this i can do it with api fetching , query building as per required . Also the project is well structured . For service , server and storing data using svelte stores .
+    This project upto basically logical building and problem solving . so that i m choosing this way . Rather than this i can do it with api fetching , query building as per required . Also the project is well structured . For service , server and storing data using svelte stores:
